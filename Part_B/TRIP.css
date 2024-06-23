@@ -1,0 +1,283 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: auto; /* להבטיח שניתן לגלול */
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("Pics/back14.jpg"); /* נתיב לתמונת הרקע */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+}
+
+h1 {
+    color: blue;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top */
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.left-content, .right-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.left-content {
+    flex: 1;
+    min-width: 300px; /* כדי להבטיח שלא יקטן יותר מדי */
+}
+
+.right-content {
+    flex: 0.34;
+    max-width: 400px; /* Adjust the max-width as needed */
+}
+
+.ImageTitle, .TitleDescription {
+    font-size: 2em;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.Description {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.6;
+}
+
+.Images {
+    display: flex;
+    justify-content: space-between; /* Make sure images are evenly spaced */
+    align-items: flex-start;
+    width: 100%;
+}
+
+.main-image {
+    flex: 2; /* Make the main image take more space */
+    max-width: 60%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 35px;
+    border: 2px solid black;
+}
+
+.secondary-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Make sure the column takes full height */
+}
+
+.secondary-images img {
+    flex: 1;
+    max-width: 100%; /* Make sure images don't exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.TripAtt {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    margin-top: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+ul.AttDesc, ul.AttDesc2 {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.AttDesc li, ul.AttDesc2 li {
+    margin-bottom: 20px;
+}
+
+ul.AttDesc li .title, ul.AttDesc2 li .title {
+    font-weight: bold;
+    display: block;
+}
+
+ul.AttDesc li .description, ul.AttDesc2 li .description {
+    font-size: 0.9em;
+    color: purple;
+    display: block;
+    margin-top: 5px;
+}
+.stats-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /
+}
+
+.weather, .stats, .map {
+    background-color: tan;
+    font-size: 1.2em;
+    padding: 20px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+    border: none;
+    margin: 10px;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.review-left {
+    text-align: center;
+}
+
+.review-button {
+    background-color: darkgreen;
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+    border: none;
+}
+
+.review-title {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+}
+
+.rating-number {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.rating-count {
+    font-size: 1em;
+    color: gray;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.star {
+    font-size: 1.5em;
+    color: #ddd;
+}
+
+.star.filled {
+    color: #4CAF50;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-content, .right-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .Images {
+        flex-direction: column;
+    }
+
+    .main-image, .secondary-images img {
+        max-width: 100%;
+    }
+
+    .TripAtt {
+        flex-direction: column;
+    }
+
+    .AttDesc2 {
+        margin-left: 0;
+    }
+
+    .Description {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+a1 {
+    text-decoration: none;
+    color: inherit;
+}
+
+button a1 {
+    display: block;
+    height: 100%;
+    width: 100%;
+}

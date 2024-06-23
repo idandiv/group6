@@ -1,0 +1,151 @@
+/* סגנון בסיסי */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+/* סגנון הכותרת */
+header {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 0;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* סגנון תיבת יצירת קשר */
+.contact-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-form h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+.contact-form hr {
+    margin: 20px 0;
+}
+
+.contact-form p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-form p a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.contact-form p a:hover {
+    text-decoration: underline;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-form {
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+/* התאמות מסך קטנות */
+@media (min-width: 768px) {
+    .contact-container {
+        flex-direction: row;
+    }
+
+    .contact-form {
+        margin-right: 30px;
+    }
+}

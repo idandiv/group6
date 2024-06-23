@@ -1,0 +1,185 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background-image: url('Pics/mountain.jpg');
+    margin: 0;
+    padding: 0;
+
+    color: #333;
+}
+
+header {
+
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.results-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.sort-container {
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sort-container label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.sort-container select {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.results-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.trip-card {
+
+    background-color: rgba(255, 255, 255, 0.9);
+    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 300px;
+    text-align: left;
+}
+
+.trip-card img {
+    width: 100%;
+    height: auto;
+}
+
+.trip-info {
+    padding: 10px;
+}
+.trip-card:nth-child(2) {
+    max-width: 350px; /* הגדלת כרטיס האמצע */
+    transform: scale(1); /* הגדלת כרטיס האמצע */
+}
+.trip-card:nth-child(1) {
+    max-width: 250px; /* הגדלת כרטיס האמצע */
+    transform: scale(0.8); /* הגדלת כרטיס האמצע */
+}
+.trip-card:nth-child(3) {
+    max-width: 250px; /* הגדלת כרטיס האמצע */
+    transform: scale(0.8); /* הגדלת כרטיס האמצע */
+}
+.trip-info h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.trip-info p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #666;
+}
+
+.trip-info .icon {
+    margin-right: 10px;
+}
+
+.discover-button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.discover-button:hover {
+    background-color: #0056b3;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.pagination .arrow {
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+    margin: 0 20px;
+}
+
+.pagination .page-number {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-card {
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+.animate-card:nth-child(1) {
+    animation-delay: 0.4s;
+}
+
+.animate-card:nth-child(2) {
+    animation-delay: 0.10s;
+}
+
+.animate-card:nth-child(3) {
+    animation-delay: 0.4s;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}

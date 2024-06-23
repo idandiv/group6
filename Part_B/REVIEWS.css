@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+     background-image: url('Pics/back4.jpg');
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+header {
+    /*background-color: #ffffff;*/
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.reviews-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.reviews-section h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    /*background-color: aliceblue;*/
+    color: #333;
+}
+
+.reviews-section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.review-card {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 250px;
+    text-align: left;
+}
+
+.review-card .quote {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1a873b;
+    margin-bottom: 10px;
+}
+
+.review-card .review-text {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.review-card .reviewer {
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+}
+
+.review-card .date {
+    font-size: 12px;
+    color: #999;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.pagination .arrow {
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+    margin: 0 20px;
+}
+
+.pagination .page-number {
+    font-size: 16px;
+    color: #333;
+}
+
+.add-review {
+    background-color: #ffc107;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-review:hover {
+    background-color: #e0a800;
+}
