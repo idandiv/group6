@@ -15,22 +15,17 @@ A hiking trails website providing information on hiking routes. Users can regist
 
 ## Screenshots
 ### Home Page
-![Home Page](path/to/screenshot1.png)
+
 
 ### Registration Page
-![Registration Page](path/to/screenshot2.png)
 
 ### Login Page
-![Login Page](path/to/screenshot3.png)
 
 ### Hiking Trails Page
-![Hiking Trails Page](path/to/screenshot4.png)
 
 ### Profile Page
-![Profile Page](path/to/screenshot5.png)
 
 ### Reviews Page
-![Reviews Page](path/to/screenshot6.png)
 
 ## Project Structure
 The project includes organized directories with HTML, CSS, JavaScript, and Python files.
