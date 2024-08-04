@@ -1,4 +1,4 @@
-# Hiking Trails Website -Part C
+![תמונה של WhatsApp‏ 2024-08-04 בשעה 11 25 58_46934dc0](https://github.com/user-attachments/assets/8764f423-f33f-49d1-ad35-7a6f838607a6)# Hiking Trails Website -Part C
 
 ## Project Idea
 A hiking trails website providing information on hiking routes. Users can register, log in, and access detailed information about the trails.
@@ -17,15 +17,62 @@ A hiking trails website providing information on hiking routes. Users can regist
 ### Home Page
 
 
+
+![תמונה של WhatsApp‏ 2024-08-04 בשעה 11 25 40_48f9b878](https://github.com/user-attachments/assets/ee63c2a7-508d-44a5-b48f-205ba0ac1dee)
+
+
+### About Us Page
+
+
+
+
+![תמונה של WhatsApp‏ 2024-08-04 בשעה 11 25 58_ebab4763](https://github.com/user-attachments/assets/4f1ad5dd-0f2b-4e4f-a3f7-cfacb33aea28)
+
+
+
+
 ### Registration Page
+
+
+
+
+![תמונה של WhatsApp‏ 2024-08-04 בשעה 11 27 05_5107ba6e](https://github.com/user-attachments/assets/6b346d90-80b0-4631-b162-6324c4041b95)
+
+
+
+
+
 
 ### Login Page
 
+
+
+
+![תמונה של WhatsApp‏ 2024-08-04 בשעה 11 26 48_89b27128](https://github.com/user-attachments/assets/7432880e-9d14-46a7-a438-87cbfab8bd28)
+
+
+
+
+
 ### Hiking Trails Page
+
+
+
+
+
 
 ### Profile Page
 
+
+
+![תמונה של WhatsApp‏ 2024-08-04 בשעה 11 26 23_666d992c](https://github.com/user-attachments/assets/243bdce5-f16b-492f-89da-1ed7a2149604)
+
+
+
 ### Reviews Page
+
+
+
 
 ## Project Structure
 The project includes organized directories with HTML, CSS, JavaScript, and Python files.
