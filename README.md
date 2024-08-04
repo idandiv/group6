@@ -9,9 +9,10 @@ A hiking trails website providing information on hiking routes. Users can regist
 3. *Login*: Log in with username and password.
 4. *Viewing Hiking Trails*: Search or view recommended trails.
 5. *Catalog*: Browse through recommended hiking trails.
-6. *About Page*: Learn more about the website.
-7. *Profile Page*: View and manage profile information.
-8. *Reviews Page*: Read and add reviews for different hiking trails.
+6. *Contct Us*: Send an text to contact us.
+7. *About Page*: Learn more about the website.
+8. *Profile Page*: View and manage profile information.
+9. *Reviews Page*: Read and add reviews for different hiking trails.
 
 ## Screenshots
 ### Home Page
@@ -70,6 +71,12 @@ A hiking trails website providing information on hiking routes. Users can regist
 
 
 ### Reviews Page
+
+
+### Contact Us Page
+
+
+![תמונה של WhatsApp‏ 2024-08-04 בשעה 11 26 36_90a19773](https://github.com/user-attachments/assets/349e9a93-496d-41e2-8783-29352758d079)
 
 
 
