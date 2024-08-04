@@ -29,6 +29,10 @@ A hiking trails website providing information on hiking routes. Users can regist
 
 ![תמונה של WhatsApp‏ 2024-08-04 בשעה 11 25 58_ebab4763](https://github.com/user-attachments/assets/4f1ad5dd-0f2b-4e4f-a3f7-cfacb33aea28)
 
+### Catalog Page
+
+
+![תמונה של WhatsApp‏ 2024-08-04 בשעה 11 36 09_fc2d20d4](https://github.com/user-attachments/assets/10ca55f9-4455-4013-9da0-0e9671f99f33)
 
 
 
@@ -59,6 +63,7 @@ A hiking trails website providing information on hiking routes. Users can regist
 
 
 
+![תמונה של WhatsApp‏ 2024-08-04 בשעה 11 37 33_d7e70911](https://github.com/user-attachments/assets/6a99ef72-2d1b-4526-af56-9e44a248f124)
 
 
 
