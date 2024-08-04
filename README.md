@@ -1,4 +1,4 @@
-![תמונה של WhatsApp‏ 2024-08-04 בשעה 11 25 58_46934dc0](https://github.com/user-attachments/assets/8764f423-f33f-49d1-ad35-7a6f838607a6)# Hiking Trails Website -Part C
+# Hiking Trails Website -Part C
 
 ## Project Idea
 A hiking trails website providing information on hiking routes. Users can register, log in, and access detailed information about the trails.
