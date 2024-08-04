@@ -78,6 +78,10 @@ A hiking trails website providing information on hiking routes. Users can regist
 ### Reviews Page
 
 
+![תמונה של WhatsApp‏ 2024-08-04 בשעה 11 41 29_1b6e1b38](https://github.com/user-attachments/assets/2b3f774c-25ee-4e04-b533-10edb44a1cc8)
+
+
+
 ### Contact Us Page
 
 
